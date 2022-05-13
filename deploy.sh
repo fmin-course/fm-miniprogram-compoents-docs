@@ -18,6 +18,6 @@ git commit -m 'deploy it!!!'
 # git push -f https://github.com/fmin-course/github.io.git/docs/ master:gh-pages
 git push origin gh-pages
 
-cd -
+pasue
 
 echo "deploy finish"
