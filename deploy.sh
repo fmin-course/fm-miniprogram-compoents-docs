@@ -14,7 +14,7 @@ git add -A
 
 git commit -m 'deploy it!!!'
 
-git push -f https://github.com/fmin-course/github.io.git main:docs
+git push origin main
 
 cd -
 
