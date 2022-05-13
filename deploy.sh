@@ -16,6 +16,8 @@ git add -A
 git commit -m 'deploy it!!!'
 
 # git push -f https://github.com/fmin-course/github.io.git/docs/ master:gh-pages
-git push -f git@github.com:fmin-course/fm-miniprogram-compoents-docs.git master
+git push -f git@github.com:fmin-course/fm-miniprogram-compoents-docs.git master:main
+
+cd -
 
 echo "deploy finish"

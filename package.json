@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "fm-miniprogram-components' website",
   "main": "index.js",
-  "repository": "https://github.com/fmin-course/github.io.git",
+  "repository": "git@github.com:fmin-course/fm-miniprogram-compoents-docs.git",
   "author": "CodingGorit <1225277469@qq.com>",
     "scripts": {
     "docs:dev": "vitepress dev docs",
