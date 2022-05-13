@@ -2,22 +2,20 @@
 
 echo "begin to deploy"
 
+set -e
 
 # 构建
 npm run docs:build
 
-git checkout gh-pages
-
 # 进入待发布的目录
 cd docs/.vitepress/dist
 
+git init
 git add -A
 
 git commit -m 'deploy it!!!'
 
 # git push -f https://github.com/fmin-course/github.io.git/docs/ master:gh-pages
-git push origin gh-pages
-
-pasue
+git push -f git@github.com:fmin-course/fm-miniprogram-compoents-docs.git master
 
 echo "deploy finish"
