@@ -9,7 +9,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "deploy": "deploy.bat"
+    "deploy": "deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {

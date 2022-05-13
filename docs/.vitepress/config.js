@@ -1,7 +1,7 @@
 module.exports = {
     title: 'fm-miniprogram-components',
     description: 'a simple UI library for miniprogram',
-    base: "/",
+    base: "/docs/",
     markdown: {
       lineNumbers: true
     },
