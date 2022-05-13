@@ -3,7 +3,7 @@ home: true
 heroText: fm 微信小程序 组件库
 heroImage: /logo.png
 tagline: 简单易用的组件库
-actionText: 快速开始
+actionText: 快速开始aaa
 actionLink: /quickstart/
 features:
   - title: Simplicity First
