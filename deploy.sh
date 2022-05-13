@@ -2,10 +2,12 @@
 
 echo "begin to deploy"
 
+git checkout main
+
+
 # 构建
 npm run docs:build
 
-git checkout main
 
 # 进入待发布的目录
 cd docs/.vitepress/dist
